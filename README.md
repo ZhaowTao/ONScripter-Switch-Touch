@@ -8,6 +8,17 @@
 
 基于 [OnscripterYuri](https://github.com/YuriSizuku/OnscripterYuri) 移植，专门针对 Nintendo Switch 优化。
 
+> ## 本分支的修复（对比上游 wetor/ONScripter-jh-Switch v2.2.0）
+>
+> 上游 v2.2.0 存在已知问题：Switch 触屏输入完全无效、虚拟鼠标的摇杆移动与 L 键切换被禁用（上游 issue #25，2026-09 报障）。本分支修复了这些问题，并在真机（Atmosphere AMS 1.10.2 / 固件 21.2.0）上验证通过：
+>
+> - **触屏**：单指点击 = 左键（推进文本、点存档槽、点按钮），三指 = 右键（打开系统菜单），四指 = 跳过剧情
+> - **虚拟鼠标**：左摇杆移动光标，L 键显示/隐藏光标，A 键点击
+> - **存档**：修复 sav 备份目录创建（save_dir/sav），备份不再静默失败
+> - **构建**：devkitA64 工具链（gcc 15.2.0 + 最新 libnx + SDL2 2.28.5）交叉编译通过
+>
+> 相关修复已回馈上游仓库：[PR #26](https://github.com/wetor/ONScripter-jh-Switch/pull/26)
+
 ---
 
 ## ✨ 特性

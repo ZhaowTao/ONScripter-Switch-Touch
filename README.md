@@ -1,6 +1,6 @@
 # ONScripter Yuri for Nintendo Switch
 
-[![Build Nintendo Switch](https://img.shields.io/github/actions/workflow/status/YuriSizuku/OnscripterYuri/build_switch.yml?label=Switch%20Build&logo=nintendo-switch&style=flat-square)](https://github.com/YuriSizuku/OnscripterYuri/actions)
+[![Build Nintendo Switch](https://img.shields.io/github/actions/workflow/status/ZhaowTao/ONScripter-Switch-Touch/build_switch.yml?label=Switch%20Build&logo=nintendo-switch&style=flat-square)](https://github.com/ZhaowTao/ONScripter-Switch-Touch/actions)
 [![License](https://img.shields.io/badge/license-GPL--2.0-green.svg)](COPYING)
 [![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-red.svg)]()
 

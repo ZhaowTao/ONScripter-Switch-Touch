@@ -21,6 +21,19 @@
 
 ---
 
+## ⬇️ 直接下载（免编译）
+
+**[onsyuri.nro — v2.2.0-touch.1](https://github.com/ZhaowTao/ONScripter-Switch-Touch/releases/tag/v2.2.0-touch.1)** · 16.7 MB · [Release 页面](https://github.com/ZhaowTao/ONScripter-Switch-Touch/releases)
+
+```
+SHA-256  b1d069fb165aaa7852d119a8a0ec42f1d80fdbcc56786cdd9dcb3da372f43b54
+```
+
+安装：`onsyuri.nro` 放进 `sdmc:/switch/ONScripter/`，游戏放进 `sdmc:/onsemu/<游戏名>/`，hbmenu 启动。
+存档写在 `sdmc:/onsemu/<游戏名>/save/`；散落在游戏根目录的旧存档本版可直接读取，无需手动搬迁。
+
+---
+
 ## ✨ 特性
 
 - 🚀 **开箱即用** - 内置中文游戏浏览器，无需额外安装启动器
